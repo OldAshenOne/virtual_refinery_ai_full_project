@@ -1,0 +1,15 @@
+# 编译生成的文件
+build/
+dist/
+*.o
+*.exe
+
+# Python 示例
+__pycache__/
+*.pyc
+
+# VSCode 配置
+.vscode/
+
+# 日志
+*.log
