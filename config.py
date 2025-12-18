@@ -16,10 +16,7 @@ DEFAULT_ALLOCATION_METHOD = "average"  # average split across multiple producers
 
 # ---- LLM configuration ----
 # Built-in defaults so用户无需环境变量即可直接使用 SiliconFlow DeepSeek-V3
-LLM_DEFAULT_PROVIDER = "siliconflow"
-LLM_DEFAULT_BASE_URL = "https://api.siliconflow.cn/v1"
-LLM_DEFAULT_API_KEY = "sk-ofrcglwkhhcewusshronwqjqhnlwplxfuqvansscdabqhyta"
-LLM_DEFAULT_MODEL = "deepseek-ai/DeepSeek-V3"
+
 LLM_DEFAULT_TEMPERATURE = 0.2
 LLM_DEFAULT_TIMEOUT = 60
 @dataclass
